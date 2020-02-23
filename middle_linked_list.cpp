@@ -1,3 +1,6 @@
+/** 
+    Question : Find the middleNode of linked list 
+    Solution : quick and slow search
 /**
  * Definition of singly-linked-list:
  * class ListNode {

@@ -1,0 +1,15 @@
+1. mutable lambda 
+   []() mutable{}
+   example:int i =0;
+   		   auto l = [i]() mutable{return i++;};
+   		   assert(l()==0);
+   		   assert(l()==1);
+   		   assert(l()==2);
+   		   assert(l()==3);
+   		   assert(l()==4);
+ 2. generic lambda
+ 	variadic generic lambdas
+ 3. arbitrary expression
+ 4. constexpr lambdas(C++17) -> template type
+ 5. versatile tools
+ 	
